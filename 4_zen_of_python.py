@@ -1,4 +1,4 @@
-# 4. Zen of Python
+# 4. zen of python
 
 import this
 
