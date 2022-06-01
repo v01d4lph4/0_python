@@ -12,7 +12,7 @@
 #> ['Hello v01d', 'Hello w0rld', 'Hello 4lph4']
 
 # 🎁 bonus: one liner fizz-buzz
-['FizzBuzz' if i%3==0 and i%5==0 else 'Fizz' if i%3==0 else 'Buzz' if i%5==0 else i  for i in range(1,20)]
+['FizzBuzz' if i%3==0 and i%5==0 else 'Fizz' if i%3==0 else 'Buzz' if i%5==0 else i for i in range(1,20)]
 #>  [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz']
 
 
