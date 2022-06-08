@@ -21,6 +21,7 @@ list(filter(isEven, seq))                                         #> [0, 2, 4, 6
 seq = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 list(filter(lambda ch: ch in "aeiou", seq))                       #> ['a', 'e', 'i']
 
+
 # 🎁 bonus: we can use filter with None as well
 seq = [0, -1, "", "v01d", True, False, 1337, 0.0, {}, []]
 list(filter(None, seq))                                           #> [-1, 'v01d', True, 1337]
