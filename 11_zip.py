@@ -17,14 +17,14 @@ ages = [58, 66, 50]
 companies = ["amaz0n", "micr0s0ft", "t3sla"]
 
 for (name, age, company) in zip(names, ages, companies):
-  print(name, ":", age, ":", company)						#> j3ff : 58 : amaz0n
-															#> b1ll : 66 : micr0s0ft
-															#> el0n : 50 : t3sla
+  print(name, ":", age, ":", company)					#> j3ff : 58 : amaz0n
+									#> b1ll : 66 : micr0s0ft
+									#> el0n : 50 : t3sla
 
 # 🎁 bonus: we can use * operator to unzip a collection as well
 coordinate = ['x', 'y', 'z']
 value = [3, 4, 5]
-resultList = list(zip(coordinate, value))					#> [('x', 3), ('y', 4), ('z', 5)]
+resultList = list(zip(coordinate, value))				#> [('x', 3), ('y', 4), ('z', 5)]
 
 c, v =  zip(*resultList)
-print(c,v)													#> ('x', 'y', 'z') (3, 4, 5)
+print(c,v)								#> ('x', 'y', 'z') (3, 4, 5)
