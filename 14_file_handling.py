@@ -32,7 +32,7 @@ with open("v01d.txt", "r") as file:                 # with() ensure the close() 
 # 🎁 bonus: to delete a file, if it exists
 import os
 
-if os.path.exists("demofile.txt"):
-  os.remove("demofile.txt") 
+if os.path.exists("v01d.txt"):
+  os.remove("v01d.txt") 
 else:
   print("The file does not exist")
