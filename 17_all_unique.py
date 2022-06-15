@@ -1,6 +1,6 @@
 # 17. all unique
 
-# check whether the given list has duplicate elements
+# check whether the given list has all unique elements.
 
 # you can cast the list into a set() to eliminate duplicate 
 # elements and compare the lengths. 
